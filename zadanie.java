@@ -21,13 +21,12 @@ class STUDENT {
     }
 
     public void WyswietlInformacje() {
-        System.out.println("=== Informacje o studencie ===");
+        System.out.println("Informacje o studencie");
         System.out.println("Imię: " + imie);
         System.out.println("Nazwisko: " + nazwisko);
         System.out.println("Płeć: " + plec);
         System.out.println("Kierunek: " + kierunek);
         System.out.println("Ocena: " + ocena);
-        System.out.println("==============================\n");
     }
 
     public void ZmienKierunek(String nkier) {
